@@ -1,0 +1,22 @@
+:root {
+  --color-primary: rgb(239, 219, 185);
+}
+
+* {
+  font-family: Avenir, Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  color: black;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  color: black;
+
+  &:visited {
+    color: black;
+  }
+}

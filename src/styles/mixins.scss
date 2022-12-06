@@ -1,0 +1,17 @@
+@mixin media-query($size) {
+  @if $size == 'sm' {
+    @media (min-width: 420px) {
+      @content;
+    }
+  }
+  @if $size == 'md' {
+    @media (min-width: 764px) {
+      @content;
+    }
+  }
+  @if $size == 'lg' {
+    @media (min-width: 1024px) {
+      @content;
+    }
+  }
+}
